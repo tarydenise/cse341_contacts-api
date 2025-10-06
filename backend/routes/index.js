@@ -1,3 +1,6 @@
-const WebsiteRoutes = require("./websiteRoutes");
+const express = require("express");
+const router = express.Router();
 
-module.exports = { WebsiteRoutes };
+router.use("/contacts", require("./contacts"));
+
+module.exports = router;

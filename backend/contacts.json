@@ -1,0 +1,23 @@
+{
+    "contact1": {
+        "firstName": "Tary-Denise",
+        "lastName": "Tupouata",
+        "email": "tarydenise@myob.com",
+        "favoriteColor": "Sage",
+        "birthday": "12/11/1992"
+    },
+    "contact2": {
+        "firstName": "Lisiate",
+        "lastName": "Ata",
+        "email": "lisiateata@myob.com",
+        "favoriteColor": "Purple",
+        "birthday": "02/15/1984"
+    },
+    "contact3": {
+        "firstName": "Kristyn",
+        "lastName": "Tupouata",
+        "email": "kristyn@myob.com",
+        "favoriteColor": "Pink",
+        "birthday": "11/25/2014"
+    }
+}
