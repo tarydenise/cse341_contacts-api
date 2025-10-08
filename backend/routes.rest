@@ -9,3 +9,60 @@ GET  http://localhost:8080/contacts/68e1a79a5fdd17ee2fcc8f5a
 
 ###
 GET  http://localhost:8080/contacts/68e1a7a95fdd17ee2fcc8f5b
+
+###
+POST http://localhost:8080/contacts 
+Content-Type: application/json
+
+{
+    "firstName":"Mark", 
+    "lastName":"Tupouata", 
+    "email":"aWeaver@test.com", 
+    "favoriteColor":"Brown", 
+    "birthday":"06/19/2000"
+}
+
+###
+PUT http://localhost:8080/contacts/68e5fd38c91289484ad509b8
+Content-Type: application/json
+
+{
+    "firstName":"Mark", 
+    "lastName":"Tupouata", 
+    "email":"aWeaver@test.com", 
+    "favoriteColor":"Green", 
+    "birthday":"02/16/2017"
+}
+
+###
+DELETE http://localhost:8080/contacts/68e6081fc91289484ad509ba HTTP/1.1
+
+// RENDER
+###
+GET https://cse341-contacts-api-fz78.onrender.com/contacts
+
+###
+POST https://cse341-contacts-api-fz78.onrender.com/contacts 
+Content-Type: application/json
+
+{
+    "firstName":"Mark", 
+    "lastName":"Tupouata", 
+    "email":"aWeaver@test.com", 
+    "favoriteColor":"Brown", 
+    "birthday":"06/19/2000"
+}
+
+###
+PUT https://cse341-contacts-api-fz78.onrender.com/contacts/68e6081fc91289484ad509ba
+
+{
+    "firstName":"Mark", 
+    "lastName":"Tupouata", 
+    "email":"aWeaver@test.com", 
+    "favoriteColor":"Green", 
+    "birthday":"02/16/2017"
+}
+
+###
+DELETE https://cse341-contacts-api-fz78.onrender.com/contacts/68e6081fc91289484ad509ba HTTP/1.1
